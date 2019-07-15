@@ -9,7 +9,16 @@
 import UIKit
 
 class SignInViewController: UIViewController {
-
+    
+    @IBOutlet var emailField: UITextField!
+    @IBOutlet var passwordField: UITextField!
+    @IBOutlet var signInButton: UIButton!
+    
+    @IBAction func signInButtonClicked(sender:AnyObject) {
+        
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

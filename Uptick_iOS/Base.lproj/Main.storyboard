@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--SignIn View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Uptick_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="SignIn View Controller" customClass="ViewController" customModule="Uptick_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -95,10 +95,91 @@
             </objects>
             <point key="canvasLocation" x="-1658" y="-50"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile View Controller-->
+        <scene sceneID="Lqe-2O-sW0">
+            <objects>
+                <viewController id="E4X-c8-L7k" userLabel="Profile View Controller" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ovz-A7-KSF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TMv-t1-rcf">
+                                <rect key="frame" x="0.0" y="820" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Profile" id="tQn-LP-qfl" userLabel="Profile"/>
+                                    <tabBarItem title="Home" id="Szz-KT-Y89" userLabel="Home"/>
+                                    <tabBarItem title="Cart" id="Zi3-LV-8rp" userLabel="Cart"/>
+                                </items>
+                            </tabBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Lur-vO-Bci"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K8w-Bs-Ovk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-936" y="-7"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="lno-CU-Bgp">
+            <objects>
+                <viewController id="j9f-7o-uXa" userLabel="Home View Controller" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gSe-mi-v18">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KJV-8K-RGX">
+                                <rect key="frame" x="0.0" y="820" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Profile" id="dhK-Vs-40v" userLabel="Profile"/>
+                                    <tabBarItem title="Home" id="uEH-sU-uT8" userLabel="Home"/>
+                                    <tabBarItem title="Cart" id="FcD-Hy-bgE" userLabel="Cart"/>
+                                </items>
+                            </tabBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Qzn-Mg-Gdu"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YFb-9A-33I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1158" y="635"/>
+        </scene>
+        <!--Cart View Controller-->
+        <scene sceneID="hBD-Oj-DQw">
+            <objects>
+                <viewController id="28h-5X-R1f" userLabel="Cart View Controller" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AdY-a1-0z6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oIm-9z-inz">
+                                <rect key="frame" x="0.0" y="820" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Profile" id="xOs-Wv-MTq" userLabel="Profile"/>
+                                    <tabBarItem title="Home" id="Za1-4z-zqU" userLabel="Home"/>
+                                    <tabBarItem title="Cart" id="oop-xJ-Qsk" userLabel="Cart"/>
+                                </items>
+                            </tabBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="vI3-B7-TAi"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gEz-Wa-PHe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-319" y="648"/>
+        </scene>
+        <!--SignUp View Controller-->
         <scene sceneID="Yre-jd-qFO">
             <objects>
-                <viewController id="snb-tn-WMr" sceneMemberID="viewController">
+                <viewController id="snb-tn-WMr" userLabel="SignUp View Controller" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bse-z3-5ur">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

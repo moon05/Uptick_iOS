@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B815BFE622DBE74C009CB1BE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815BFE522DBE74C009CB1BE /* SignUpViewController.swift */; };
+		B815BFE822DC2CBD009CB1BE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815BFE722DC2CBD009CB1BE /* HomeViewController.swift */; };
+		B815BFEA22DC2CCB009CB1BE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815BFE922DC2CCB009CB1BE /* ProfileViewController.swift */; };
+		B815BFEC22DC2CFB009CB1BE /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815BFEB22DC2CFB009CB1BE /* CartViewController.swift */; };
 		B87FB54222DBD10F005D7DCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87FB54122DBD10F005D7DCA /* AppDelegate.swift */; };
 		B87FB54422DBD10F005D7DCA /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87FB54322DBD10F005D7DCA /* SignInViewController.swift */; };
 		B87FB54722DBD10F005D7DCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B87FB54522DBD10F005D7DCA /* Main.storyboard */; };
@@ -37,6 +40,9 @@
 
 /* Begin PBXFileReference section */
 		B815BFE522DBE74C009CB1BE /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B815BFE722DC2CBD009CB1BE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B815BFE922DC2CCB009CB1BE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B815BFEB22DC2CFB009CB1BE /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		B87FB53E22DBD10F005D7DCA /* Uptick_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uptick_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87FB54122DBD10F005D7DCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B87FB54322DBD10F005D7DCA /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +110,9 @@
 				B87FB54122DBD10F005D7DCA /* AppDelegate.swift */,
 				B87FB54322DBD10F005D7DCA /* SignInViewController.swift */,
 				B815BFE522DBE74C009CB1BE /* SignUpViewController.swift */,
+				B815BFE722DC2CBD009CB1BE /* HomeViewController.swift */,
+				B815BFE922DC2CCB009CB1BE /* ProfileViewController.swift */,
+				B815BFEB22DC2CFB009CB1BE /* CartViewController.swift */,
 				B87FB54522DBD10F005D7DCA /* Main.storyboard */,
 				B87FB54B22DBD112005D7DCA /* Assets.xcassets */,
 				B87FB54D22DBD112005D7DCA /* LaunchScreen.storyboard */,
@@ -262,7 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B815BFE822DC2CBD009CB1BE /* HomeViewController.swift in Sources */,
 				B87FB54A22DBD10F005D7DCA /* Uptick_iOS.xcdatamodeld in Sources */,
+				B815BFEC22DC2CFB009CB1BE /* CartViewController.swift in Sources */,
+				B815BFEA22DC2CCB009CB1BE /* ProfileViewController.swift in Sources */,
 				B87FB54422DBD10F005D7DCA /* SignInViewController.swift in Sources */,
 				B815BFE622DBE74C009CB1BE /* SignUpViewController.swift in Sources */,
 				B87FB54222DBD10F005D7DCA /* AppDelegate.swift in Sources */,
