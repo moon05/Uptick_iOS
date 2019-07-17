@@ -15,11 +15,17 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet var emailField: UITextField!
     @IBOutlet var passwordField: UITextField!
     @IBOutlet var signInButton: UIButton!
+    @IBOutlet var signUpButton: UIButton!
+    @IBOutlet var forgotPasswordButton: UIButton!
     
     @IBAction func signInButtonClicked(sender:AnyObject) {
         
     }
     
+    @IBAction func dismissKeyboard(sender: AnyObject) {
+        emailField.resignFirstResponder()
+        passwordField.resignFirstResponder()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

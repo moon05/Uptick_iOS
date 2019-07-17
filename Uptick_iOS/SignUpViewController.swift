@@ -25,6 +25,17 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
         
     }
     
+    @IBAction func dismissKeyboard(sender: AnyObject) {
+        firstNameField.resignFirstResponder()
+        lastNameField.resignFirstResponder()
+        emailNameField.resignFirstResponder()
+        mobileNumberField.resignFirstResponder()
+        universityCampusChooseField.resignFirstResponder()
+        dormChooseField.resignFirstResponder()
+        passwordField.resignFirstResponder()
+        passwordConfirmField.resignFirstResponder()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
