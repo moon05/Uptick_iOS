@@ -8,7 +8,9 @@
 
 import UIKit
 
-class SignInViewController: UIViewController {
+class SignInViewController: UIViewController, UITextFieldDelegate {
+    
+    // MARK: Properties
     
     @IBOutlet var emailField: UITextField!
     @IBOutlet var passwordField: UITextField!
