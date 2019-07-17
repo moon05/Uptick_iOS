@@ -121,10 +121,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mjw-FV-GGh">
-                                <rect key="frame" x="0.0" y="88" width="345" height="774"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="center" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="7sF-Pg-TUy" userLabel="View Menu">
-                                        <rect key="frame" x="30" y="20" width="345" height="480"/>
+                                        <rect key="frame" x="30" y="20" width="284" height="480"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQt-Pz-K9k">
                                                 <rect key="frame" x="0.0" y="0.0" width="48" height="30"/>
@@ -202,20 +202,22 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="7sF-Pg-TUy" firstAttribute="leading" secondItem="Mjw-FV-GGh" secondAttribute="leading" constant="30" id="Vhx-Oh-UeK"/>
-                                    <constraint firstAttribute="bottom" secondItem="7sF-Pg-TUy" secondAttribute="bottom" constant="274" id="YNL-Ch-pCC"/>
-                                    <constraint firstItem="7sF-Pg-TUy" firstAttribute="width" secondItem="Mjw-FV-GGh" secondAttribute="width" id="ezu-ua-cWs"/>
+                                    <constraint firstItem="7sF-Pg-TUy" firstAttribute="leading" secondItem="Mjw-FV-GGh" secondAttribute="leading" priority="750" constant="30" id="8NJ-ze-qsU"/>
+                                    <constraint firstItem="7sF-Pg-TUy" firstAttribute="width" relation="lessThanOrEqual" secondItem="Mjw-FV-GGh" secondAttribute="width" id="Ap7-1o-ybU"/>
+                                    <constraint firstItem="7sF-Pg-TUy" firstAttribute="top" secondItem="Mjw-FV-GGh" secondAttribute="top" priority="750" constant="20" id="DkT-X8-Qjn"/>
+                                    <constraint firstItem="7sF-Pg-TUy" firstAttribute="height" relation="lessThanOrEqual" secondItem="Mjw-FV-GGh" secondAttribute="height" id="kTq-1C-BCt"/>
+                                    <constraint firstAttribute="trailing" secondItem="7sF-Pg-TUy" secondAttribute="trailing" priority="750" constant="100" id="lkE-BD-OF4"/>
+                                    <constraint firstAttribute="bottom" secondItem="7sF-Pg-TUy" secondAttribute="bottom" priority="750" constant="274" id="zSI-ss-uCo"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Mjw-FV-GGh" secondAttribute="trailing" constant="69" id="DLc-ru-Ppg"/>
-                            <constraint firstItem="Mjw-FV-GGh" firstAttribute="leading" secondItem="Ovz-A7-KSF" secondAttribute="leading" id="Evw-Wh-mbw"/>
-                            <constraint firstItem="dhh-Qp-Whp" firstAttribute="top" secondItem="Mjw-FV-GGh" secondAttribute="bottom" id="FuH-Yd-baW"/>
-                            <constraint firstItem="7sF-Pg-TUy" firstAttribute="top" secondItem="7JY-2V-OOq" secondAttribute="bottom" constant="20" id="QSP-Rr-b5Q"/>
-                            <constraint firstItem="Mjw-FV-GGh" firstAttribute="top" secondItem="7JY-2V-OOq" secondAttribute="bottom" id="hdU-K8-s7q"/>
+                            <constraint firstAttribute="trailing" secondItem="Mjw-FV-GGh" secondAttribute="trailing" id="Rev-db-LxL"/>
+                            <constraint firstItem="dhh-Qp-Whp" firstAttribute="top" secondItem="Mjw-FV-GGh" secondAttribute="bottom" id="aul-gO-siv"/>
+                            <constraint firstItem="Mjw-FV-GGh" firstAttribute="leading" secondItem="Ovz-A7-KSF" secondAttribute="leading" id="dnX-JI-dEM"/>
+                            <constraint firstItem="Mjw-FV-GGh" firstAttribute="top" secondItem="7JY-2V-OOq" secondAttribute="bottom" id="yY7-DZ-X3M"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="KOF-CS-FEz" appends="YES" id="eNi-cw-2bw"/>
@@ -232,8 +234,8 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="constraintMenuLeft" destination="Vhx-Oh-UeK" id="0X5-oj-F9R"/>
-                        <outlet property="constraintMenuWidth" destination="ezu-ua-cWs" id="fAQ-1X-MHo"/>
+                        <outlet property="constraintMenuLeft" destination="Ap7-1o-ybU" id="rPF-5R-edK"/>
+                        <outlet property="constraintMenuWidth" destination="8NJ-ze-qsU" id="aaA-vA-r7K"/>
                         <outlet property="gestureScreenEdgePan" destination="KOF-CS-FEz" id="bLU-dn-QAg"/>
                         <outlet property="viewMenu" destination="7sF-Pg-TUy" id="ndJ-Vs-sbF"/>
                         <outlet property="viewShadow" destination="Mjw-FV-GGh" id="Wsd-li-iei"/>
