@@ -23,7 +23,7 @@ class HamburgerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        constraintMenuLeft.constant = -constraintMenuWidth.constant
+        constraintMenuLeft.constant = -constraintMenuWidth.constant
         
         viewShadow.alpha = 0
         viewShadow.isHidden = true
@@ -124,7 +124,7 @@ class HamburgerViewController: UIViewController {
     
     func openMenu(){
         // when menu is opened, it's left constraint should be 0
-//        constraintMenuLeft.constant = 0
+        constraintMenuLeft.constant = 0
         // view for dimming effect should also be shown
         viewShadow.isHidden = false
         // animate opening of the menu - including opacity value
@@ -139,7 +139,7 @@ class HamburgerViewController: UIViewController {
     
     func hideMenu(){
         // when menu is closed, it's left constraint should be of value that allows it to be completely hidden to the left of the screen - which is negative value of it's width
-//        constraintMenuLeft.constant = -constraintMenuWidth.constant
+        constraintMenuLeft.constant = -constraintMenuWidth.constant
         
         // animate closing of the menu - including opacity value
         UIView.animate(withDuration: 0.3, animations: {

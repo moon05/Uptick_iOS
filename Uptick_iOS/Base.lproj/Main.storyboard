@@ -120,91 +120,103 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mjw-FV-GGh">
-                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <stackView opaque="NO" contentMode="center" fixedFrame="YES" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="7sF-Pg-TUy" userLabel="View Menu">
-                                <rect key="frame" x="20" y="88" width="160" height="480"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mjw-FV-GGh">
+                                <rect key="frame" x="0.0" y="88" width="345" height="774"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQt-Pz-K9k">
-                                        <rect key="frame" x="0.0" y="0.0" width="48" height="30"/>
-                                        <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" title="Profile">
-                                            <color key="titleColor" red="0.082727711859999997" green="0.095937979110000002" blue="0.1104702384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r2N-9j-2hN">
-                                        <rect key="frame" x="0.0" y="50" width="30" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" title="Buy">
-                                            <color key="titleColor" red="0.082727711859999997" green="0.095937979110000002" blue="0.1104702384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9eA-GU-84k">
-                                        <rect key="frame" x="0.0" y="100" width="30" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" title="Sell">
-                                            <color key="titleColor" red="0.082727711859999997" green="0.095937979110000002" blue="0.1104702384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auh-gg-Kxz">
-                                        <rect key="frame" x="0.0" y="150" width="74" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" title="Messages">
-                                            <color key="titleColor" red="0.082727711859999997" green="0.095937979110000002" blue="0.1104702384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGS-wK-vuZ">
-                                        <rect key="frame" x="0.0" y="200" width="62" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" title="Settings">
-                                            <color key="titleColor" red="0.082727711859999997" green="0.095937979110000002" blue="0.1104702384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NcC-EC-TLb">
-                                        <rect key="frame" x="0.0" y="250" width="95" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" title="Notifications">
-                                            <color key="titleColor" red="0.082727711859999997" green="0.095937979110000002" blue="0.1104702384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ODD-gZ-jaq">
-                                        <rect key="frame" x="0.0" y="300" width="160" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" title="Terms and Conditions">
-                                            <color key="titleColor" red="0.082727711859999997" green="0.095937979110000002" blue="0.1104702384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iy5-yF-oZC">
-                                        <rect key="frame" x="0.0" y="350" width="70" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" title="FAQ/Help">
-                                            <color key="titleColor" red="0.082727711859999997" green="0.095937979110000002" blue="0.1104702384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JBK-TW-5qQ">
-                                        <rect key="frame" x="0.0" y="400" width="82" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" title="Contact Us">
-                                            <color key="titleColor" red="0.082727711859999997" green="0.095937979110000002" blue="0.1104702384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mxl-E4-Nq7">
-                                        <rect key="frame" x="0.0" y="450" width="63" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" title="Sign Out">
-                                            <color key="titleColor" red="0.082727711859999997" green="0.095937979110000002" blue="0.1104702384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                    </button>
+                                    <stackView opaque="NO" contentMode="center" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="7sF-Pg-TUy" userLabel="View Menu">
+                                        <rect key="frame" x="30" y="20" width="345" height="480"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQt-Pz-K9k">
+                                                <rect key="frame" x="0.0" y="0.0" width="48" height="30"/>
+                                                <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" title="Profile">
+                                                    <color key="titleColor" red="0.082727711859999997" green="0.095937979110000002" blue="0.1104702384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r2N-9j-2hN">
+                                                <rect key="frame" x="0.0" y="50" width="30" height="30"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" title="Buy">
+                                                    <color key="titleColor" red="0.082727711859999997" green="0.095937979110000002" blue="0.1104702384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9eA-GU-84k">
+                                                <rect key="frame" x="0.0" y="100" width="30" height="30"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" title="Sell">
+                                                    <color key="titleColor" red="0.082727711859999997" green="0.095937979110000002" blue="0.1104702384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auh-gg-Kxz">
+                                                <rect key="frame" x="0.0" y="150" width="74" height="30"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" title="Messages">
+                                                    <color key="titleColor" red="0.082727711859999997" green="0.095937979110000002" blue="0.1104702384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGS-wK-vuZ">
+                                                <rect key="frame" x="0.0" y="200" width="62" height="30"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" title="Settings">
+                                                    <color key="titleColor" red="0.082727711859999997" green="0.095937979110000002" blue="0.1104702384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NcC-EC-TLb">
+                                                <rect key="frame" x="0.0" y="250" width="95" height="30"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" title="Notifications">
+                                                    <color key="titleColor" red="0.082727711859999997" green="0.095937979110000002" blue="0.1104702384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ODD-gZ-jaq">
+                                                <rect key="frame" x="0.0" y="300" width="160" height="30"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" title="Terms and Conditions">
+                                                    <color key="titleColor" red="0.082727711859999997" green="0.095937979110000002" blue="0.1104702384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iy5-yF-oZC">
+                                                <rect key="frame" x="0.0" y="350" width="70" height="30"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" title="FAQ/Help">
+                                                    <color key="titleColor" red="0.082727711859999997" green="0.095937979110000002" blue="0.1104702384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JBK-TW-5qQ">
+                                                <rect key="frame" x="0.0" y="400" width="82" height="30"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" title="Contact Us">
+                                                    <color key="titleColor" red="0.082727711859999997" green="0.095937979110000002" blue="0.1104702384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mxl-E4-Nq7">
+                                                <rect key="frame" x="0.0" y="450" width="63" height="30"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" title="Sign Out">
+                                                    <color key="titleColor" red="0.082727711859999997" green="0.095937979110000002" blue="0.1104702384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
-                            </stackView>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="7sF-Pg-TUy" firstAttribute="leading" secondItem="Mjw-FV-GGh" secondAttribute="leading" constant="30" id="Vhx-Oh-UeK"/>
+                                    <constraint firstAttribute="bottom" secondItem="7sF-Pg-TUy" secondAttribute="bottom" constant="274" id="YNL-Ch-pCC"/>
+                                    <constraint firstItem="7sF-Pg-TUy" firstAttribute="width" secondItem="Mjw-FV-GGh" secondAttribute="width" id="ezu-ua-cWs"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Mjw-FV-GGh" secondAttribute="trailing" constant="69" id="DLc-ru-Ppg"/>
+                            <constraint firstItem="Mjw-FV-GGh" firstAttribute="leading" secondItem="Ovz-A7-KSF" secondAttribute="leading" id="Evw-Wh-mbw"/>
+                            <constraint firstItem="dhh-Qp-Whp" firstAttribute="top" secondItem="Mjw-FV-GGh" secondAttribute="bottom" id="FuH-Yd-baW"/>
+                            <constraint firstItem="7sF-Pg-TUy" firstAttribute="top" secondItem="7JY-2V-OOq" secondAttribute="bottom" constant="20" id="QSP-Rr-b5Q"/>
+                            <constraint firstItem="Mjw-FV-GGh" firstAttribute="top" secondItem="7JY-2V-OOq" secondAttribute="bottom" id="hdU-K8-s7q"/>
+                        </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="KOF-CS-FEz" appends="YES" id="eNi-cw-2bw"/>
                             <outletCollection property="gestureRecognizers" destination="kze-gb-uGJ" appends="YES" id="lYe-NF-4eE"/>
@@ -220,6 +232,8 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="constraintMenuLeft" destination="Vhx-Oh-UeK" id="0X5-oj-F9R"/>
+                        <outlet property="constraintMenuWidth" destination="ezu-ua-cWs" id="fAQ-1X-MHo"/>
                         <outlet property="gestureScreenEdgePan" destination="KOF-CS-FEz" id="bLU-dn-QAg"/>
                         <outlet property="viewMenu" destination="7sF-Pg-TUy" id="ndJ-Vs-sbF"/>
                         <outlet property="viewShadow" destination="Mjw-FV-GGh" id="Wsd-li-iei"/>
@@ -227,6 +241,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K8w-Bs-Ovk" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="KOF-CS-FEz">
+                    <rectEdge key="edges" left="YES"/>
                     <connections>
                         <action selector="gestureScreenEdgePan:" destination="E4X-c8-L7k" id="3C4-Ne-nQv"/>
                     </connections>
