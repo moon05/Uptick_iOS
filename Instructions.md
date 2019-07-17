@@ -20,3 +20,8 @@ or something related to "Firebase.h" not found, do the following:
  + Delete **Podfile.lock** file and **Pods** folder
  + Run **pod install**.
  + Open the newly created **ProjectName.xcworkspace** file and build.
+Afterwards if you are trying to build and there are some build errors check your
+**Project Schemes**
+Go from the toolbar on top like this:
+Product-> Scheme-> FirebaseCore
+Select whichever other stuff you need.
