@@ -14,7 +14,7 @@ class HamburgerViewController: UIViewController {
     
     @IBOutlet var viewShadow: UIView!
     
-    let maxShadowViewAlpha:CGFloat = 0.5
+    let maxShadowViewAlpha:CGFloat = 0.9
     
     @IBOutlet var viewMenu: UIView!
     @IBOutlet var constraintMenuLeft: NSLayoutConstraint!
