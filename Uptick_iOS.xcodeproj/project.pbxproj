@@ -12,7 +12,6 @@
 		B815BFE622DBE74C009CB1BE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815BFE522DBE74C009CB1BE /* SignUpViewController.swift */; };
 		B815BFE822DC2CBD009CB1BE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815BFE722DC2CBD009CB1BE /* HomeViewController.swift */; };
 		B815BFEA22DC2CCB009CB1BE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815BFE922DC2CCB009CB1BE /* ProfileViewController.swift */; };
-		B815BFEC22DC2CFB009CB1BE /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815BFEB22DC2CFB009CB1BE /* CartViewController.swift */; };
 		B84C173E22DF321A004C3096 /* HamburgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84C173D22DF321A004C3096 /* HamburgerViewController.swift */; };
 		B87FB54222DBD10F005D7DCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87FB54122DBD10F005D7DCA /* AppDelegate.swift */; };
 		B87FB54422DBD10F005D7DCA /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87FB54322DBD10F005D7DCA /* SignInViewController.swift */; };
@@ -25,6 +24,7 @@
 		B884BF2222DECD24004BA821 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B884BF2122DECD24004BA821 /* GoogleService-Info.plist */; };
 		B884BF2322DECD24004BA821 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B884BF2122DECD24004BA821 /* GoogleService-Info.plist */; };
 		B884BF2422DECD24004BA821 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B884BF2122DECD24004BA821 /* GoogleService-Info.plist */; };
+		B8D76A8B22E1BCBB00BCBFFB /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D76A8A22E1BCBB00BCBFFB /* MenuViewController.swift */; };
 		D68C1667F48D467BF8AFB212 /* Pods_Uptick_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CA07AEFF47B8BEED3E31C7 /* Pods_Uptick_iOSUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,7 +55,6 @@
 		B815BFE522DBE74C009CB1BE /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		B815BFE722DC2CBD009CB1BE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B815BFE922DC2CCB009CB1BE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		B815BFEB22DC2CFB009CB1BE /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		B84C173D22DF321A004C3096 /* HamburgerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerViewController.swift; sourceTree = "<group>"; };
 		B87FB53E22DBD10F005D7DCA /* Uptick_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uptick_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87FB54122DBD10F005D7DCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +71,7 @@
 		B87FB56422DBD112005D7DCA /* Uptick_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uptick_iOSUITests.swift; sourceTree = "<group>"; };
 		B87FB56622DBD112005D7DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B884BF2122DECD24004BA821 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B8D76A8A22E1BCBB00BCBFFB /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		D8214B6B9208F506AE13FB6F /* Pods-Uptick_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uptick_iOS.debug.xcconfig"; path = "Target Support Files/Pods-Uptick_iOS/Pods-Uptick_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		DAA5E425178FF429F926A5F9 /* Pods-Uptick_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uptick_iOS.release.xcconfig"; path = "Target Support Files/Pods-Uptick_iOS/Pods-Uptick_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		F2FE6DC9FB2941AC6ABBDA60 /* Pods-Uptick_iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uptick_iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-Uptick_iOSUITests/Pods-Uptick_iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -158,7 +158,7 @@
 				B815BFE522DBE74C009CB1BE /* SignUpViewController.swift */,
 				B815BFE722DC2CBD009CB1BE /* HomeViewController.swift */,
 				B815BFE922DC2CCB009CB1BE /* ProfileViewController.swift */,
-				B815BFEB22DC2CFB009CB1BE /* CartViewController.swift */,
+				B8D76A8A22E1BCBB00BCBFFB /* MenuViewController.swift */,
 				B87FB54522DBD10F005D7DCA /* Main.storyboard */,
 				B84C173D22DF321A004C3096 /* HamburgerViewController.swift */,
 				B87FB54B22DBD112005D7DCA /* Assets.xcassets */,
@@ -414,8 +414,8 @@
 			files = (
 				B815BFE822DC2CBD009CB1BE /* HomeViewController.swift in Sources */,
 				B87FB54A22DBD10F005D7DCA /* Uptick_iOS.xcdatamodeld in Sources */,
-				B815BFEC22DC2CFB009CB1BE /* CartViewController.swift in Sources */,
 				B815BFEA22DC2CCB009CB1BE /* ProfileViewController.swift in Sources */,
+				B8D76A8B22E1BCBB00BCBFFB /* MenuViewController.swift in Sources */,
 				B84C173E22DF321A004C3096 /* HamburgerViewController.swift in Sources */,
 				B87FB54422DBD10F005D7DCA /* SignInViewController.swift in Sources */,
 				B815BFE622DBE74C009CB1BE /* SignUpViewController.swift in Sources */,
