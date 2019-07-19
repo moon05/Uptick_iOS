@@ -12,7 +12,7 @@ import FirebaseAuth
 
 class MenuViewController: UIViewController {
     
-    @IBOutlet var profileButton: UIButton!
+    @IBOutlet var NameLabel: UILabel!
     @IBOutlet var faqButton: UIButton!
     @IBOutlet var termsButton: UIButton!
     @IBOutlet var contactButton: UIButton!
@@ -20,10 +20,7 @@ class MenuViewController: UIViewController {
     @IBOutlet var settingsButton: UIButton!
     @IBOutlet var logoutButton: UIButton!
     
-    @IBAction func sendToProfileView(sender:AnyObject) {
-        self.performSegue(withIdentifier: "ToProfileView", sender: self)
-    }
-    
+
     @IBAction func logoutAction(sender:AnyObject) {
         if Auth.auth().currentUser != nil {
             do {
