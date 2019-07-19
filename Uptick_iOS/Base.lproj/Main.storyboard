@@ -398,7 +398,7 @@
                             <constraint firstItem="MrS-si-EEl" firstAttribute="top" secondItem="1lu-it-2XM" secondAttribute="top" id="pCS-vm-Ytw"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Profile" id="uWa-hm-CFT"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="profile" id="uWa-hm-CFT"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Thd-Rh-JBd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -452,7 +452,7 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CFY-Jt-Azu" userLabel="ImageHolder View">
                                                                         <rect key="frame" x="0.0" y="0.0" width="178" height="201"/>
                                                                         <subviews>
-                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-male-user-50" translatesAutoresizingMaskIntoConstraints="NO" id="cKh-f6-ffk" userLabel="imageView">
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="cKh-f6-ffk" userLabel="imageView">
                                                                                 <rect key="frame" x="8" y="53" width="170" height="140"/>
                                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                             </imageView>
@@ -684,6 +684,7 @@
                             <constraint firstItem="HD9-dF-dWB" firstAttribute="centerY" secondItem="C8g-pF-bUm" secondAttribute="centerY" id="yf5-yJ-nfi"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" systemItem="more" id="9xw-Zj-pbx"/>
                     <navigationItem key="navigationItem" id="Fsm-9w-CGX"/>
                     <connections>
                         <outlet property="NameLabel" destination="elE-Ls-wkk" id="ayw-Oi-TjN"/>
@@ -857,7 +858,7 @@
                             <constraint firstItem="DuO-GB-1XU" firstAttribute="centerY" secondItem="j3U-WW-e8A" secondAttribute="centerY" id="UUz-IF-dE5"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="tkT-GK-WpU"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home" id="tkT-GK-WpU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I5c-Ns-QbX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -876,7 +877,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Messages" id="B1E-vs-oS7"/>
+                    <tabBarItem key="tabBarItem" title="Messages" image="message" id="B1E-vs-oS7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="muR-Ma-nLf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1252,10 +1253,10 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="5cm-y5-L7g" kind="relationship" relationship="viewControllers" id="YIS-g0-ETI"/>
-                        <segue destination="ba9-yK-0DC" kind="relationship" relationship="viewControllers" id="XME-Tq-aFd"/>
-                        <segue destination="i87-Kj-OVD" kind="relationship" relationship="viewControllers" id="q5B-Kt-bwE"/>
-                        <segue destination="QHx-yy-PhI" kind="relationship" relationship="viewControllers" id="XwB-rm-SaV"/>
+                        <segue destination="qRk-7H-cgT" kind="relationship" relationship="viewControllers" id="H2W-yG-AN6"/>
+                        <segue destination="5cm-y5-L7g" kind="relationship" relationship="viewControllers" id="28Q-7l-VJ2"/>
+                        <segue destination="i87-Kj-OVD" kind="relationship" relationship="viewControllers" id="wM9-NY-D8D"/>
+                        <segue destination="QHx-yy-PhI" kind="relationship" relationship="viewControllers" id="gmT-s6-XL8"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X3f-0z-t40" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1283,9 +1284,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="icons8-male-user-50" width="50" height="50"/>
+        <image name="home" width="30" height="30"/>
+        <image name="message" width="30" height="30"/>
+        <image name="profile" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="H2W-yG-AN6"/>
         <segue reference="ahh-Pm-nNM"/>
     </inferredMetricsTieBreakers>
 </document>
