@@ -6,6 +6,6 @@ This will be insightful if you have never used **CocoaPods** before or interface
 
 The flow of the app is like below:
 
-[LaunchScreen](images/LaunchScreen.png)
+[LaunchScreen][(images/LaunchScreen.png)]
 
 
