@@ -12,6 +12,13 @@
 		B815BFE622DBE74C009CB1BE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815BFE522DBE74C009CB1BE /* SignUpViewController.swift */; };
 		B815BFE822DC2CBD009CB1BE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815BFE722DC2CBD009CB1BE /* HomeViewController.swift */; };
 		B815BFEA22DC2CCB009CB1BE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815BFE922DC2CCB009CB1BE /* ProfileViewController.swift */; };
+		B8313ADB22E2FEB2003DFFD3 /* FaqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8313ADA22E2FEB2003DFFD3 /* FaqViewController.swift */; };
+		B8313ADD22E3041B003DFFD3 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8313ADC22E3041B003DFFD3 /* TermsViewController.swift */; };
+		B8313ADF22E30440003DFFD3 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8313ADE22E30440003DFFD3 /* HelpViewController.swift */; };
+		B8313AE122E30457003DFFD3 /* ReportBugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8313AE022E30457003DFFD3 /* ReportBugViewController.swift */; };
+		B8313AE322E30492003DFFD3 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8313AE222E30492003DFFD3 /* ContactViewController.swift */; };
+		B8313AE522E304B1003DFFD3 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8313AE422E304B1003DFFD3 /* NotificationsViewController.swift */; };
+		B8313AE722E304D2003DFFD3 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8313AE622E304D2003DFFD3 /* MessagesViewController.swift */; };
 		B84C173E22DF321A004C3096 /* HamburgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84C173D22DF321A004C3096 /* HamburgerViewController.swift */; };
 		B84D1CD322E259F300C3B4D7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D1CD222E259F300C3B4D7 /* SettingsViewController.swift */; };
 		B84D1CF222E2841A00C3B4D7 /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B84D1CDE22E2841800C3B4D7 /* Lato-Hairline.ttf */; };
@@ -116,6 +123,13 @@
 		B815BFE522DBE74C009CB1BE /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		B815BFE722DC2CBD009CB1BE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B815BFE922DC2CCB009CB1BE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B8313ADA22E2FEB2003DFFD3 /* FaqViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaqViewController.swift; sourceTree = "<group>"; };
+		B8313ADC22E3041B003DFFD3 /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		B8313ADE22E30440003DFFD3 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		B8313AE022E30457003DFFD3 /* ReportBugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportBugViewController.swift; sourceTree = "<group>"; };
+		B8313AE222E30492003DFFD3 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		B8313AE422E304B1003DFFD3 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		B8313AE622E304D2003DFFD3 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
 		B84C173D22DF321A004C3096 /* HamburgerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerViewController.swift; sourceTree = "<group>"; };
 		B84D1CD222E259F300C3B4D7 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		B84D1CDE22E2841800C3B4D7 /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Hairline.ttf"; path = "../../Uptick_images/Lato2OFL/Lato-Hairline.ttf"; sourceTree = "<group>"; };
@@ -269,7 +283,14 @@
 				B815BFE722DC2CBD009CB1BE /* HomeViewController.swift */,
 				B815BFE922DC2CCB009CB1BE /* ProfileViewController.swift */,
 				B8D76A8A22E1BCBB00BCBFFB /* MenuViewController.swift */,
+				B8313ADA22E2FEB2003DFFD3 /* FaqViewController.swift */,
 				B87FB54522DBD10F005D7DCA /* Main.storyboard */,
+				B8313AE222E30492003DFFD3 /* ContactViewController.swift */,
+				B8313AE422E304B1003DFFD3 /* NotificationsViewController.swift */,
+				B8313AE622E304D2003DFFD3 /* MessagesViewController.swift */,
+				B8313ADC22E3041B003DFFD3 /* TermsViewController.swift */,
+				B8313ADE22E30440003DFFD3 /* HelpViewController.swift */,
+				B8313AE022E30457003DFFD3 /* ReportBugViewController.swift */,
 				B84D1CD222E259F300C3B4D7 /* SettingsViewController.swift */,
 				B84C173D22DF321A004C3096 /* HamburgerViewController.swift */,
 				B87FB54B22DBD112005D7DCA /* Assets.xcassets */,
@@ -583,14 +604,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8313AE522E304B1003DFFD3 /* NotificationsViewController.swift in Sources */,
+				B8313ADD22E3041B003DFFD3 /* TermsViewController.swift in Sources */,
+				B8313AE322E30492003DFFD3 /* ContactViewController.swift in Sources */,
 				B815BFE822DC2CBD009CB1BE /* HomeViewController.swift in Sources */,
+				B8313AE122E30457003DFFD3 /* ReportBugViewController.swift in Sources */,
 				B87FB54A22DBD10F005D7DCA /* Uptick_iOS.xcdatamodeld in Sources */,
 				B815BFEA22DC2CCB009CB1BE /* ProfileViewController.swift in Sources */,
+				B8313ADB22E2FEB2003DFFD3 /* FaqViewController.swift in Sources */,
 				B8D76A8B22E1BCBB00BCBFFB /* MenuViewController.swift in Sources */,
 				B84C173E22DF321A004C3096 /* HamburgerViewController.swift in Sources */,
+				B8313ADF22E30440003DFFD3 /* HelpViewController.swift in Sources */,
 				B87FB54422DBD10F005D7DCA /* SignInViewController.swift in Sources */,
 				B815BFE622DBE74C009CB1BE /* SignUpViewController.swift in Sources */,
 				B87FB54222DBD10F005D7DCA /* AppDelegate.swift in Sources */,
+				B8313AE722E304D2003DFFD3 /* MessagesViewController.swift in Sources */,
 				B84D1CD322E259F300C3B4D7 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
