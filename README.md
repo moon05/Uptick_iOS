@@ -7,9 +7,9 @@ This will be insightful if you have never used **CocoaPods** before or interface
 The flow of the app is like below:
 
 ![LaunchScreen](images/LaunchScreen.png =250x250)
-![Sign_in](images/Sign_in.png)
-![Sign_up](images/Sign_up.png)
-![Profile](images/Profile.png)
+![Sign_in](images/Sign_in.png =250x250)
+![Sign_up](images/Sign_up.png =250x250)
+![Profile](images/Profile.png =250x250)
 
 
 
