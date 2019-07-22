@@ -8,6 +8,8 @@ target 'Uptick_iOS' do
   # Pods for Uptick_iOS
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'MessageKit'
+  pod 'Scaledrone', '~> 0.3.0'
 
   target 'Uptick_iOSTests' do
     inherit! :search_paths
