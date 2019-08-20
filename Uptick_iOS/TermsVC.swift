@@ -1,5 +1,5 @@
 //
-//  ContactViewController.swift
+//  TermsViewController.swift
 //  Uptick_iOS
 //
 //  Created by Abdullah Al Mamun on 7/20/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ContactViewController: UIViewController {
+class TermsVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,4 +21,3 @@ class ContactViewController: UIViewController {
     }
     
 }
-

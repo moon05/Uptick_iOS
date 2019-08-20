@@ -10,7 +10,7 @@ import UIKit
 import Firebase
 import FirebaseAuth
 
-class SettingsViewController: UIViewController {
+class SettingsVC: UIViewController {
     
     @IBOutlet var locationServicesButton: UIButton!
     @IBOutlet var notificationSettingsButton: UIButton!

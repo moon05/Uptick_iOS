@@ -7,8 +7,14 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
 
-class HomeViewController: UIViewController {
+class HomeVC: UIViewController {
+    
+    @IBOutlet var searchBar: UISearchBar!
+    
+    var currentUserData = User()
     
     override func viewDidLoad() {
         super.viewDidLoad()

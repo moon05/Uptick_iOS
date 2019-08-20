@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ReportBugViewController: UIViewController {
+class ReportBugVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

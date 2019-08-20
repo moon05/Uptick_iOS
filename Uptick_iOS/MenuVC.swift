@@ -10,7 +10,7 @@ import UIKit
 import Firebase
 import FirebaseAuth
 
-class MenuViewController: UIViewController {
+class MenuVC: UIViewController {
     
     @IBOutlet var NameLabel: UILabel!
     @IBOutlet var faqButton: UIButton!
@@ -19,6 +19,8 @@ class MenuViewController: UIViewController {
     @IBOutlet var notificationsButton: UIButton!
     @IBOutlet var settingsButton: UIButton!
     @IBOutlet var logoutButton: UIButton!
+    
+    var currentUserData = User()
     
 
     @IBAction func logoutAction(sender:AnyObject) {
@@ -35,6 +37,7 @@ class MenuViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        checkIfLoggedIn()
         // Do any additional setup after loading the view.
     }
     
@@ -48,5 +51,22 @@ class MenuViewController: UIViewController {
 //        navigationController?.setNavigationBarHidden(false, animated: animated)
 //    }
     
+    func checkIfLoggedIn() {
+        if Auth.auth().currentUser == nil {
+            perform(#selector(handleLogOut), with: nil, afterDelay: 0)
+            
+        }
+    }
+    
+    @objc func handleLogOut() {
+        do {
+            try Auth.auth().signOut()
+        } catch let logoutError {
+            print(logoutError)
+        }
+        
+        let signinController = SignInVC()
+        present(signinController, animated: true, completion: nil)
+    }
     
 }

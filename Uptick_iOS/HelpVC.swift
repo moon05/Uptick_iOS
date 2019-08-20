@@ -1,5 +1,5 @@
 //
-//  FaqViewController.swift
+//  HelpViewController.swift
 //  Uptick_iOS
 //
 //  Created by Abdullah Al Mamun on 7/20/19.
@@ -8,16 +8,16 @@
 
 import UIKit
 
-class FaqViewController: UIViewController {
+class HelpVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        navigationController?.setNavigationBarHidden(false, animated: animated)
-    }
-
+    //    override func viewWillDisappear(_ animated: Bool) {
+    //        super.viewWillDisappear(animated)
+    //        navigationController?.setNavigationBarHidden(false, animated: animated)
+    //    }
+    
 }
